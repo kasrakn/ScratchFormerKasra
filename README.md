@@ -95,9 +95,9 @@ We thank them for releasing their baseline code.
 Pass the parameters given below as arguments to run the code with the dataset provided in our research project.
 
 <b>data_name</b>
-* `data_name=cropland-GF`  
+* `--data_name cropland-GF`  
 or 
-* `data_name=cropland-S2_LS8`
+* `--data_name cropland-S2_LS8`
 
 <b>dataset</b>
-* `dataset=CROPLAND`
+* `--dataset CROPLAND`
