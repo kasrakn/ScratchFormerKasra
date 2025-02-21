@@ -87,3 +87,17 @@ We thank them for releasing their baseline code.
 
 
 * **ScratchFormer**: "Remote Sensing Change Detection with Transformers Trained from Scratch", TGRS, 2024 (*MBZUAI*). [[Paper](https://arxiv.org/pdf/2304.06710.pdf)][[PyTorch](https://github.com/mustansarfiaz/ScratchFormer)]
+
+
+<br><br>
+
+## Changes by Kasra
+Pass the parameters given below as arguments to run the code with the dataset provided in our research project.
+
+<b>data_name</b>
+* `data_name=cropland-GF`  
+or 
+* `data_name=cropland-S2_LS8`
+
+<b>dataset</b>
+* `dataset=CROPLAND`
