@@ -17,7 +17,7 @@ def get_loader(data_name, img_size=256, batch_size=8, split='test',
         data_set = CDDataset(root_dir=root_dir, split=split,
                                  img_size=img_size, is_train=is_train,
                                  label_transform=label_transform)
-    elif dataset == 'CROPLAND ':
+    elif dataset == 'CROPLAND':
         data_set = CDDataset(root_dir=root_dir, split=split,
                                  img_size=img_size, is_train=is_train,
                                  label_transform=label_transform)
