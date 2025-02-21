@@ -20,6 +20,12 @@ class DataConfig:
         elif data_name == 'CDD':
             self.label_transform = "norm"
             self.root_dir =  '../dataset/CD/CDD-CD-256/'
+        elif data_name == 'cropland-GF':
+            self.label_transform = "norm"
+            self.root_dir = '/content/drive/MyDrive/work/research/2-vision-transformers/dataset/cropland2wetland_dataset/GF-1-6'
+        elif data_name == 'cropland-S2_LS8':
+            self.label_transform = "norm"
+            self.root_dir = '/content/drive/MyDrive/work/research/2-vision-transformers/dataset/cropland2wetland_dataset/S2_LS8'
         else:
             raise TypeError('%s has not defined' % data_name)
         return self
