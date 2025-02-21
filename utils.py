@@ -50,6 +50,14 @@ def get_loaders(args):
         val_set = CDDataset(root_dir=root_dir, split=split_val,
                                  img_size=args.img_size,is_train=False,
                                  label_transform=label_transform)
+    
+    elif args.dataset == 'CROPLAND':
+        training_set = CDDataset(root_dir=root_dir, split=split,
+                                 img_size=args.img_size,is_train=True,
+                                 label_transform=label_transform)
+        val_set = CDDataset(root_dir=root_dir, split=split_val,
+                                 img_size=args.img_size,is_train=False,
+                                 label_transform=label_transform)
     else:
         raise NotImplementedError(
             'Wrong dataset name %s (choose one from [CDDataset,])'
